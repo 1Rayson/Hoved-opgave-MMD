@@ -12,54 +12,23 @@
 
 <body>
     <header>
-        <H1>Maacks Opslagsværktøj</H1>
-        <nav>
-            <h2>Kategori</h2>
-            <h2>Kategori</h2>
-            <h2>Kategori</h2>
-            <h2>Kategori</h2>
-        </nav>
+        <H1>MAACKS</H1>
+
     </header>
 
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..">
 
     <ul id="myUL">
-        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/pmN88UvZfDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <a href="#">Adele</a>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/Yd-klYV1UB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="#">Brainy Bins Radar Sensor</a>
         </li>
-        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/nAxrBrkOE8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <a href="#">Agnes</a>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/Ok9icV25M0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="#">How to install your Radar Sensor</a>
         </li>
 
-        <li><a href="#">Billy</a></li>
-        <li><a href="#">Bob</a></li>
-
-        <li><a href="#">Calvin</a></li>
-        <li><a href="#">Christina</a></li>
-        <li><a href="#">Cindy</a></li>
     </ul>
 
-    <script>
-        function myFunction() {
-            // Declare variables
-            let input, filter, ul, li, a, i, txtValue;
-            input = document.getElementById('myInput');
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("myUL");
-            li = ul.getElementsByTagName('li');
-
-            // Loop through all list items, and hide those who don't match the search query
-            for (i = 0; i < li.length; i++) {
-                a = li[i].getElementsByTagName("a")[0];
-                txtValue = a.textContent || a.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    li[i].style.display = "";
-                } else {
-                    li[i].style.display = "none";
-                }
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

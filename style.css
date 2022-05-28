@@ -1,3 +1,10 @@
+body {
+    font-family: warsaw 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+}
+
+header {}
+
 #myInput {
     background-image: url('/css/searchicon.png');
     /* Add a search icon to input */
