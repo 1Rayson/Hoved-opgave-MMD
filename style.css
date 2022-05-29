@@ -3,6 +3,10 @@ body {
     margin: 0%;
 }
 
+p {
+    font-size: xx-large;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -24,32 +28,33 @@ header {
 }
 
 .input {
+    display: block;
+    margin: auto;
     padding: 12px 20px 12px 40px;
     border: 2px solid rgb(15, 132, 30);
     border-radius: 10px;
     margin-bottom: 2em;
+    width: 90vw;
 }
 
-#myUL li a {
-    border: 1px solid #ddd;
-    /* Add a border to all links */
-    margin-top: -1px;
-    /* Prevent double borders */
-    background-color: #f6f6f6;
-    /* Grey background color */
-    padding: 12px;
-    /* Add some padding */
-    text-decoration: none;
-    /* Remove default text underline */
-    font-size: 18px;
-    /* Increase the font-size */
-    color: black;
-    /* Add a black text color */
-    display: block;
-    /* Make it into a block element to fill the whole list */
+.video {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
-#myUL li a:hover:not(.header) {
-    background-color: #eee;
-    /* Add a hover effect to all links, except for headers */
+iframe {
+    max-width: 100%;
+}
+
+.video-box {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #018B18;
+    border-radius: 15px;
+    box-shadow: -3px 5px 6px #00000029;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin-top: 5em;
+    min-height: 10em;
 }
