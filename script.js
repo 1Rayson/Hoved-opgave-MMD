@@ -1,3 +1,7 @@
+// inspired by Jarne 
+// https://codepen.io/beutnagel/pen/mdXXZXo
+
+
 const tagListElement = document.querySelector('.tagList');
 const elementsForFiltering = document.querySelectorAll('div');
 const tagList = [
