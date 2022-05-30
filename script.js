@@ -9,7 +9,7 @@ const tagList = [
 ];
 
 function generateTagList() {
-    // loop through the tag list
+    // loops through the tag list
     tagList.forEach(tag => {
         // generate HTML elements
         let li = document.createElement("li");
