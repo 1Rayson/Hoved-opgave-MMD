@@ -47,6 +47,8 @@ ul {
     border: 3px solid #018B18;
     background-color: white;
     box-shadow: -3px 5px 6px #00000029;
+    min-width: 3em;
+    text-align: center;
 }
 
 .tagList li:hover {
