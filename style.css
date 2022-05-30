@@ -7,6 +7,10 @@ p {
     font-size: xx-large;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -44,7 +48,11 @@ ul {
     box-shadow: -3px 5px 6px #00000029;
 }
 
-.tagList li:hover {}
+.tagList li:hover {
+    background-color: #018B18;
+    color: white;
+    cursor: pointer;
+}
 
 .resetFilters {
     display: flex;
@@ -56,7 +64,11 @@ ul {
     box-shadow: -3px 5px 6px #00000029;
 }
 
-.resetFilters:hover {}
+.resetFilters:hover {
+    background-color: #018B18;
+    color: white;
+    cursor: pointer;
+}
 
 .video {
     display: grid;
