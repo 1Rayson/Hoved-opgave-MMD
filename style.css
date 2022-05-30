@@ -1,3 +1,17 @@
+/* This class gives the videos their box and general look, make sure to add it to every "video-box" */
+
+.video-box {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #018B18;
+    border-radius: 15px;
+    box-shadow: -3px 5px 6px #00000029;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin-top: 5em;
+    min-height: 10em;
+}
+
 body {
     font-family: sans-serif;
     margin: 0%;
@@ -28,17 +42,21 @@ header {
     justify-items: center;
 }
 
-.logo {
-    max-width: 70%;
-    margin-bottom: 1em;
-}
-
 ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     gap: 1rem;
     padding: 0%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 70%;
+    margin-bottom: 1em;
 }
 
 .tagList li {
@@ -77,22 +95,6 @@ ul {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-}
-
-iframe {
-    max-width: 100%;
-}
-
-.video-box {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid #018B18;
-    border-radius: 15px;
-    box-shadow: -3px 5px 6px #00000029;
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
-    margin-top: 5em;
-    min-height: 10em;
 }
 
 .active {
