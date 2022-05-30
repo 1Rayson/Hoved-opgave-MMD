@@ -1,5 +1,5 @@
 body {
-    font-family: warsaw 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0%;
 }
 
@@ -28,15 +28,35 @@ header {
     margin-bottom: 1em;
 }
 
-.input {
-    display: block;
-    margin: auto;
-    padding: 12px 20px 12px 40px;
-    border: 2px solid rgb(15, 132, 30);
-    border-radius: 10px;
-    margin-bottom: 2em;
-    width: 90vw;
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0%;
 }
+
+.tagList li {
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: 3px solid #018B18;
+    background-color: white;
+    box-shadow: -3px 5px 6px #00000029;
+}
+
+.tagList li:hover {}
+
+.resetFilters {
+    display: flex;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: 2px solid rgb(185, 184, 184);
+    max-width: fit-content;
+    box-shadow: -3px 5px 6px #00000029;
+}
+
+.resetFilters:hover {}
 
 .video {
     display: grid;
@@ -58,4 +78,12 @@ iframe {
     padding: 2em;
     margin-top: 5em;
     min-height: 10em;
+}
+
+.active {
+    display: block;
+}
+
+.inactive {
+    display: none;
 }

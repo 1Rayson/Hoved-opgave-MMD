@@ -15,17 +15,16 @@
         <img class="logo" src="/assets/MAACKS_LOGO_BLK.png" alt="company logo">
         <a href="https://www.maacks.com/">Back to MAACKS.com</a>
     </header>
-
-    <input type="text" class="input" onkeyup="myFunction()" placeholder="Search..">
+    <ul class="tagList"></ul>
+    <p class="resetFilters">Reset</p>
     <section class="video">
-        <div class="video-box">
-            <iframe data-tags="Sensor,Brainy,Brainy Bins" width="560" height="315" src="https://www.youtube.com/embed/Yd-klYV1UB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <!-- add class "video-box" here and add "data-tags" responding to the videos content -->
+        <div data-tags="sensor" class="video-box">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Yd-klYV1UB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>Brainy Bins Radar Sensor</p>
         </div>
-        <div class="video-box">
-            <iframe data-tags="sensor,radar,how to,install,how" width="560" height="315" src="https://www.youtube.com/embed/Ok9icV25M0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <div data-tags="sensor,install,how to" class="video-box">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ok9icV25M0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>How to install your Radar Sensor</p>
         </div>
     </section>
