@@ -36,16 +36,18 @@ function filterTags(tag) {
 
     elementsForFiltering.forEach(element => {
         let tags = element.dataset.tags.split(',');
-        // check if the set of tags includes any of the terms in set in the filters
+        // check if the set of tags includes any of the terms set in the filters
         console.log(tags);
         if (tags.some(r => [tag].includes(r))) {
             console.log('found!');
             element.classList.add('active');
             element.classList.remove('inactive');
+            // if yes, then it adds the class "active" and removes the class "inactive"
         } else {
             element.classList.remove('active');
             element.classList.add('inactive');
         }
+        // otherwise the class "active" is removed and "inactive"
         console.log(tags.some(r => tagList.includes(r)));
         console.log(tags);
     });
