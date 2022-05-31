@@ -104,3 +104,20 @@ iframe {
 .inactive {
     display: none;
 }
+
+@media only screen and (min-width: 1300px) {
+    header {
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+    .back {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .resetFilters {
+        grid-row: 2/3;
+    }
+    .video {
+        grid-template-columns: 1fr 1fr;
+    }
+}
