@@ -105,6 +105,9 @@ iframe {
     display: none;
 }
 
+
+/* Next part is what determines layout on bigger screens than a tablet */
+
 @media only screen and (min-width: 1300px) {
     header {
         grid-template-columns: 1fr 1fr 1fr;

@@ -1,4 +1,4 @@
-// inspired by Jarne 
+// inspired by Jarne Beutnagel
 // https://codepen.io/beutnagel/pen/mdXXZXo
 
 
