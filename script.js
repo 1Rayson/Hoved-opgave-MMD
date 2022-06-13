@@ -5,7 +5,7 @@
 const tagListElement = document.querySelector('.tagList');
 const elementsForFiltering = document.querySelectorAll('div');
 const tagList = [
-    // whenever new videos are made add tags as required
+    // whenever new videos are made, add tags as required
     "sensor",
     "install",
     "how to",
@@ -57,7 +57,8 @@ function filterTags(tag) {
     });
 
 }
-
+// Reset button function
+// Removes classes from the elements in the UL to reset the page without the user having to reload the page
 function resetAllFilters() {
     elementsForFiltering.forEach(element => {
         element.classList.remove('active');
